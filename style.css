@@ -167,11 +167,12 @@ border-radius: 50px;
 .btn-boton9{
     background-color:black;
 display:inline-block;
-height: 10px;
+height: 8px;
 margin-top: -290px;
-margin-right: 190px;
-width: 11px;
+margin-right: 100px;
+width: 8px;
 border-radius:50%;
+
 }
 .btn-boton9:hover{
     background: red;
@@ -181,47 +182,89 @@ border-radius:50%;
 
 .marca{
     display: inline-block;
-    color:rgb(79, 106, 26);
     background-color:yellowgreen;
     width: 70px;
-    box-shadow: 0px 0px 10px;
-    border-radius: px;
-    text-shadow: -2px 2px 4px
-    rgba(0, 0, 0, 0.5), 
-            2px -2px 0 
-            rgba(255, 255, 255, 0.9);
-            justify-content:center;
-            
+    font-size: 14px;
+    box-shadow: 0px 0px 4px #5f8423;
+    border-radius: 25px;
+    color:#629412;
+text-shadow: 1px 2px 3px #242d18;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+   
         }
 
-        .console span{
-            font-family:cursive;
-           letter-spacing:-2px;
+      
 
-        }
+    
 
         .console span:nth-child(3){
             color:rgb(177, 46, 90);
+            font-family: cursive;
         }
         .console span:nth-child(4){
             color: rgb(129, 81, 152) ;
+            font-family: cursive;
         }
         .console span:nth-child(5){
             color: rgb(45, 182, 45) ;
+            font-family: cursive;
         }
         .console span:nth-child(6){
-            color:rgb(242, 255, 0)
-        
+            color:rgb(242, 255, 0);
+            font-family: cursive;
         }
         .console span:nth-child(7){
             color: rgb(70, 124, 196);
+            font-family: cursive;
         }
 
    .power{
     display: block;
     position: absolute;
-    margin-top: -145px;  
-    margin-left:-2px;
-   
+    margin-top: -130px;  
+    margin-left:-3px;
+    font-size:smaller;
+   letter-spacing: -1px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
    }
    
+   .selección{
+    display: inline;
+    margin-block-start: 15px;
+    margin-left: 50px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold 11px arial;
+    text-transform: uppercase;
+    color: rgb(142, 209, 41);
+    text-shadow: 0  2px  0   #505a40,
+                 0  1px  0   #667a49,
+                 0  1px  0   #6f7858, 
+                 0  1px  0   #6b814b, 
+                 0 1px  0   #416425,
+                 0 1px  0   rgb(169, 177, 157),
+                3px 8px 10px rgba(0,0,0,0.1),
+                3px 1px  5px rgba(0,0,0,0.3);
+   
+   }
+   .start{
+display: inline;
+margin-left:16px;
+font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold 11px arial;
+    text-transform: uppercase;
+    color: rgb(142, 209, 41);
+    text-shadow: 0  2px  0   #505a40,
+                 0  1px  0   #667a49,
+                 0  1px  0   #6f7858, 
+                 0  1px  0   #6b814b, 
+                 0 1px  0   #416425,
+                 0 1px  0   rgb(169, 177, 157),
+                3px 8px 10px rgba(0,0,0,0.1),
+                3px 1px  5px rgba(0,0,0,0.3);
+   }
