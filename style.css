@@ -217,11 +217,11 @@ border-radius:50%;
             color: rgb(70, 124, 196);
         }
 
-        
-    
-.button{
-    display:inline-block;
-    ;
-
-}
+   .power{
+    display: block;
+    position: absolute;
+    margin-top: -145px;  
+    margin-left:-2px;
+   
+   }
    
